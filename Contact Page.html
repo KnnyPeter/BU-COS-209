@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact Us</title>
+  </head>
+  <body>
+    <div style="display: flex; flex-direction: row; justify-content: center">
+      <h1>Contact Us</h1>
+    </div>
+    <div style="display: flex; flex-direction: row; justify-content: center">
+      <div
+        id="Question"
+        style="
+          max-width: 50%;
+          border-right: 1px darkgray;
+          border: 1px;
+          display: flex;
+          flex-direction: column;
+          border-left: 1px darkgrey;
+          justify-content: center;
+          align-items: center;
+        "
+      >
+        <div>
+          <h2>Online Inquiry</h2>
+          <h4>
+            Send us questions, requests and comments about our site below. An
+            employee will get back to you shortly by email or SMS(if
+            applicable).
+          </h4>
+          <h5>Asterisk indicates a required field</h5>
+        </div>
+        <div style="display: block; margin-bottom: 10px">
+          <label for="Inquiry" style="display: block; margin-bottom: 15px"
+            >Types of Inquiry</label
+          >
+          <select name="Inquiry" id="Inquiry">
+            <option value="Normal Inquiry">Normal Inquiry</option>
+            <option value="Booking Inquiry">Booking Inquiry</option>
+            <option value="Other">Other Types of Inquiry</option>
+          </select>
+        </div>
+        <div style="display: block; margin-bottom: 10px">
+          <label for="text" style="display: block; margin-bottom: 15px"
+            >Name*</label
+          >
+          <input type="text" name="Name" id="Name" />
+        </div>
+        <div style="display: block; margin-bottom: 10px">
+          <label for="email" style="display: block; margin-bottom: 15px"
+            >Email*</label
+          >
+          <input type="email" name="Email" id="Email" />
+        </div>
+        <div style="display: block; margin-bottom: 10px">
+          <label for="tel" style="display: block; margin-bottom: 15px"
+            >Phone Number*</label
+          >
+          <input type="tel" name="Phone" id="Number" />
+        </div>
+        <div style="display: block; margin-bottom: 10px">
+          <label for="message" style="display: block; margin-bottom: 15px"
+            >Message*</label
+          >
+          <p style="display: block; font-size: 16px">50 characters minimum</p>
+          <textarea name="Message" id="message" cols="30" rows="10"></textarea>
+        </div>
+        <div>
+          <button
+            type="submit"
+            style="width: 15rem; background-color: dimgrey; color: azure"
+          >
+            SUBMIT
+          </button>
+        </div>
+      </div>
+      <div
+        style="
+          display: flex;
+          flex-direction: column;
+          border-left: 1px darkgrey;
+          justify-content: center;
+          align-items: center;
+        "
+      >
+        <div>
+          <h2>Contact Details</h2>
+        </div>
+        <div style="display: block">
+          <a href="mailto:communications@crossway.org"
+            >FoodCMCatalog@gmail.com</a
+          >
+          <a href="tel:+2347058060069">0705 806 0069</a>
+        </div>
+        <div>
+          <h4 style="line-height: 15px">Opening Hours</h4>
+          <p>Mondays to Fridays</p>
+          <p>9am to 6pm</p>
+        </div>
+        <div>
+          <h4 style="line-height: 15px">Head Office</h4>
+          <p>163 Adetokunbo Ademola Cres, Wuse, Abuja</p>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
