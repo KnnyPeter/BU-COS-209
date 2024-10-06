@@ -1,0 +1,40 @@
+body{
+    background-color: rgb(101, 90, 92);
+    font: Arial;
+}
+
+
+img{
+    display: block;
+    margin: auto;
+    width:400px;
+    border-radius: 30px;
+    float: none;     
+    padding-top: 0cap;
+
+}
+   h1{
+    text-align: center;
+   }     
+h3{
+    text-align: center;
+    }
+        
+p{
+    text-align: center;
+}
+
+.header {
+    text-align: center;
+    font-weight: bold;
+    color: black;
+    font-size: 27px;
+    padding-left: 10px;
+    padding-top: 12px;
+    padding-bottom: 15px;
+    border-bottom: 2px white solid;
+}
+
+.food-section {
+    border-bottom: 2px white solid;
+}
