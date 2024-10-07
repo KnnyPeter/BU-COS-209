@@ -1,0 +1,92 @@
+
+body{
+    width: 100%;
+    min-height: 100vh;
+    background-color: #994a09;
+}
+.about.us{
+    width: 100%;
+}
+.about.us h1{
+    text-align: center;
+    font-size: 31px;
+    color: white;
+    margin-top: 50px;
+    height: 52px;
+    width: 200px;
+    background-color:rgb(255, 119, 39);
+    border-radius: 15px;
+    display: block;
+    margin: auto;
+} 
+
+.wrapper{
+    padding:0px 60px;
+    margin:60px auto;
+}
+.content{
+    width: 600px;
+    float: left;
+    text-align: left;
+    padding: 0px 30px;
+}
+.content h3{
+    color: white;
+    letter-spacing: 1px;
+}
+.content p{
+    font-family: sans-serif;
+    font-size: 17px;
+    color: white;
+    margin-top: 20px;
+}
+.content .button{
+    margin-top: 40px;
+}
+.content .button a{
+    color: antiquewhite;
+    background-color: rgb(255, 119, 0);
+    border: 1px solid rgb(255, 119, 0);
+    padding: 10px 35px;
+    text-decoration: none;
+    letter-spacing: 1px;
+    font-size: 22px; 
+}
+.content .button a:hover {
+    color: rgb(255, 119, 0);
+    background-color: antiquewhite;
+}
+.image-section{
+    width: 200px;
+    float: right;
+    padding: 0px 30px;
+    
+}
+.image-section img{
+    max-width: 200px;
+}
+@media screen and (max-width:900px){
+    
+.about.us h1{
+    font-size: 32px;
+}
+.content{
+    width: 200px;
+    float: none;
+}
+.content p{
+    font-size: 13px;
+}
+.content .button{
+    margin-top: 30px;
+    text-align: center;
+}
+.content .button a{
+    padding:8px;
+}
+.image-section{
+    float: none;
+    width: 100px;
+    margin-top: 35px;
+}
+}
